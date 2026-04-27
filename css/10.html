@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            background-color: green;
+            border: 2px solid black;
+            width: 400px;
+            height: 400px;
+            transition: transform 0.3s ease, background-color 2.5s;
+        }
+        div:hover {
+            background-color: brown;
+        }
+        div:active {
+            transform: scale(0.5);
+        }
+        input:focus {
+            border: 4px dashed rgb(19, 18, 18);
+        }
+        a:visited {
+            color: rgb(201, 36, 36);
+        }
+        li:first-child {
+            color: red;
+        }
+        li:last-child {
+            color: blue;
+        }
+        li:nth-child(even) {
+            background-color: lightgray;
+        }
+        li:nth-child(odd) {
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <div>hello</div>
+    <br><br>
+    <input type="text" placeholder="focus me">
+    <br><br>
+    <a href="https://google.com">visit link</a>
+    <br><br>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+
+</body>
+</html>

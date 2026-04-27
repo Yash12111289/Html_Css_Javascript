@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            color: aqua;
+            background-color: rgb(161, 103, 115);
+            text-decoration: none;
+        }
+        .b{
+            background-color: black;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        li{
+            list-style: none;
+        }
+        .i{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: aquamarine;
+            border: 2px solid black;
+            width: 50%;
+            height: 50%;
+            /* align-self:baseline;*//*self has more priority same as align-items*/
+        }
+        .o{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: blueviolet;
+            border: 2px solid black;
+            width: 200px;
+            height: 200px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="a">
+        <h1>this is flexbox</h1>
+        <div class="b">
+            <li><a href="#">link1</a></li>
+            <li><a href="#">link2</a></li>
+            <li><a href="#">link3</a></li>
+            <li><a href="#">link4</a></li>
+        </div>
+    </div>
+    <div class="o">
+        outer
+        <div class="i">inner</div>
+    </div>
+</body>
+</html>

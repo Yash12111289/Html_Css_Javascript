@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            color: aqua;
+            width:400px;
+            height:400px;
+        }
+        @media(max-width:300px){
+            div{
+                color: greenyellow;
+            }
+        }
+        @media(min-width:300px) and (max-width:400px){
+            div{
+                color: pink;
+            }
+        }
+        @media(min-width:400px) and (max-width:600px){
+            div{
+                color: rgb(255, 0, 43);
+            }
+        }
+        @media(min-width:601px){
+            div{
+                color:black;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>apple</h1>
+        <img src="image.png" alt="error">
+    </div>
+    
+</body>
+</html>

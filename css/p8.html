@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border:20px dotted black;
+            background-color: aqua;
+            height: 200px;
+            width: 200px;
+            border-radius: 100%;
+            border-top: 20px solid red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation:a 3s linear 0s infinite normal;
+        }
+        img{
+            height: 100px;
+            width: 100px;
+            border-radius: 100%;
+        }
+        @keyframes a {
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div><img src="image.png" alt="none"></div>
+</body>
+</html>
